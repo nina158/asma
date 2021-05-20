@@ -67,9 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="mimi.aspx" />
+    <Content Include="nana.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="mimi.aspx.cs">
+      <DependentUpon>mimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mimi.aspx.designer.cs">
+      <DependentUpon>mimi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nana.aspx.cs">
+      <DependentUpon>nana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nana.aspx.designer.cs">
+      <DependentUpon>nana.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
